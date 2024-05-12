@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_bar"
+        android:title="Keresés"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/own_listings"
+        android:title="Saját hirdetések"
+        android:icon="@drawable/own"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/log_out"
+        android:title="Kijelentkezés"
+        app:showAsAction="always"
+        />
+</menu>

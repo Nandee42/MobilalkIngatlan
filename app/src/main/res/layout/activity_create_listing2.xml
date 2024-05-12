@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="100dp"
+        android:height="100dp"
+        android:text="Új Ingatlan feltöltése"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:hint="Postai cím"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="257dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:hint="Leírás"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="257dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:hint="Elérhetőség"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="257dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:hint="Ár (Ft)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/uploadPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:onClick="uploadPicture"
+        android:text="Kép feltöltése" />
+
+    <Button
+        android:id="@+id/addListingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:onClick="addListing"
+        android:text="Eladás" />
+
+</LinearLayout>

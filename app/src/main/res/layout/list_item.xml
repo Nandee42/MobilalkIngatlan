@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="350dp"
+        android:layout_height="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/mdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/mImageView"
+        app:layout_constraintTop_toBottomOf="@+id/mImageView" />
+
+    <TextView
+        android:id="@+id/maddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jani utca 2"
+        app:layout_constraintStart_toStartOf="@+id/mdescription"
+        app:layout_constraintTop_toBottomOf="@+id/mdescription" />
+
+    <TextView
+        android:id="@+id/mprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/maddress"
+        app:layout_constraintTop_toBottomOf="@+id/maddress" />
+
+    <TextView
+        android:id="@+id/mcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/mprice"
+        app:layout_constraintTop_toBottomOf="@+id/mprice" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
